@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>AOJP</title>
+    
+</head>
+<body>
+     <!--menu-->
+     <div class="header">
+      <img src="images/AOJP.png">
+      <div class="header-right">
+        <a class="active" href="#home">ホーム</a>
+        <a href="#culture">文化</a>
+        <a href="#linguage">言語</a>
+        <a href="#contact">メールアドレス</a>
+      </div>
+    </div>
+    <div class="grid-container">
+        <div class="item1">
+          <div id="home">
+            <div>
+              <h2>日本留学</h2>
+            </div>
+              <img class="img1" src="images/imagem1.jpg"><P class="int1">想像してみてください。クラスを受講してルーチンに戻る代わりに、教室を離れて新しい場所を探索し、日本語を練習することができます。毎日のように日本語を習得し、実際にあなたの知識を提示しているので、あなたの日本語への流暢さはとても速く進歩します。</P>
+              <img class="img2" src="images/imagem2.jpg"><P class="int2">私たちはあなたの交換の成功のためにすべてを準備します：快適な学習環境のある少人数クラス、経験豊富な教師、そして多くの個別の注意。日本での交流の後、日本人の進化に驚くことでしょう</P>
+            </div>
+          <div>
+          <div id="culture">
+            <div>
+              <h2>文化</h2>
+              <p class="cultura">日本は古代の伝統を備えた多面的な文化を示しています。中国の文化に根ざしていますが、地理的な距離により、日本は差別化された文化モデルを構築することができました。</p>
+              <h2>ギャラリー</h2>
+             <div>
+              <div class="gallery">
+                <a target="_blank" href="images/miyajima.jpg">
+                  <img src="images/miyajima.jpg" alt="Cinque Terre" width="600" height="400">
+                </a>
+                <div class="desc">宮島</div>
+              </div>
+              
+              <div class="gallery">
+                <a target="_blank" href="images/himeji.jpg">
+                  <img src="images/himeji.jpg" alt="Forest" width="600" height="400">
+                </a>
+                <div class="desc">姫路城</div>
+              </div>
+              
+              <div class="gallery">
+                <a target="_blank" href="images/heiwadomu.jpg">
+                  <img src="images/heiwadomu.jpg" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">広島平和ドーム</div>
+              </div>
+              
+              <div class="gallery">
+                <a target="_blank" href="images/shirakawa.jpg">
+                  <img src="images/shirakawa.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">白川</div>
+              </div>  
+             </div>  
+            </div>
+          </div>
+          
+          <div id="linguage">
+            <div id="lj">
+              <h2 class="ling">言語</h2>
+                <h6 class="h6">原型</h6>
+                  <p> 日本語は世界で6番目に話されている言語です。しかし、国外ではほとんど使用されておらず、日本語の起源については多くの説があります。その構文は韓国語に似ているというコンセンサスに加えて、言語がトルコ語やモンゴル語などのアルタイ語に構文的にアプローチすると、多くの研究者が信じています。また、その形態と語彙が南のマレー語-ポリネシア語から先史時代の影響を受けているという証拠もあります。</p>
+                <h6 class="h6">書面</h6>
+                  <p>日本語の書記体系は中国語から来ましたが、日本語と中国語で話される言語は完全に異なります。 5世紀から6世紀の間に漢字が導入された後、漢字の変種である2つの表音文字（ひらがなとカタカナ）が追加されましたが、現在でも多くの地方の方言が使用されています。標準的な日本語は、東京の住民のスピーチに基づいて、ラジオ、テレビ、映画などのメディアの影響により、徐々に全国に広がっていますが、特に京都と大阪で話されている方言は発展し続けています。あなたの名声。 </p>
+                <img src="images/hiragana.png">
+                <img src="images/katakana.png">
+            </div>
+            <div>
+                <h4>ブラジル語翻訳バージョン: </h4>
+                <p><a href="file:///C:/Users/Amanda/Downloads/amy/SITE%20JAPONES/index.html">ブラジル語のサイトも見に来てね！！</a></p>
+              </div>
+          </div> 
+            
+        </div>
+		    </div>
+        <div class="item2">
+            <div id="contact">
+              <p class="cont">
+                メールアドレス
+                alineamy@outlook.jp
+                Espíritos Santos - ES
+                Vila Velha - VV 
+                携帯:<br>
+                (27)99242-7564
+              </p>
+            </div>
+        </div>
+        <div class="item3">
+          <div id="div1">
+            <h5>為替レート計算</h5>
+            <!--Opções de Moedas-->
+            <div id="div2">
+              <label id="label1">レアルに為替</label>
+            </div>
+            <!--Entrada do Valor-->
+            <div id="div3">
+              <label id="label2">為替させたい金額</label>
+              <input id="text2">
+            </div>
+            <!--Botões de Conberter e Limpar-->
+            <div>
+              <input type="button" value="Converter" id="bt1" onclick="conversao2();" >
+            </div>
+            <!--Resultado do Valor-->
+            <div>
+              <br>
+              <label id="resultado">結果:  <span id="valorFinal"></span></label>
+
+            </div>
+          </div>
+		    </div>
+    </div>
+  <script>
+    
+function conversao2(){
+
+  var real = 0.049; //deve-se multiplicar e não dividir
+  valor = parseFloat(document.getElementById("text2").value);				
+	
+		document.getElementById("valorFinal").innerHTML = (valor*real).toFixed(2);					
+		
+}
+    </script>
+</body>
+</html>

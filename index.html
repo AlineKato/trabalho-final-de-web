@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>AOJP</title>
+    
+</head>
+<body>
+     <!--menu-->
+     <div class="header">
+       <img src="images/AOJP.png">
+      <div class="header-right">
+        <a class="active" href="#home">Home</a>
+        <a href="#culture">Cultura</a>
+        <a href="#linguage">Linguagem</a>
+        <a href="#contact">Contato</a>
+      </div>
+      
+    </div>
+    <div class="grid-container">
+        <div class="item1">
+          <div id="home">
+            <div>
+              <h2>Intercâmbio para Japão</h2>
+            </div>
+              <img class="img1" src="images/imagem1.jpg"><P class="int1">Intercâmbio no Japão é o melhor modo de aprender japonês. Imagine: em vez de fazer aulas e retornar para a sua rotina, você sairá da sala de aula e poderá explorar novos lugares, praticando a língua japonesa a cada esquina. Você melhorará a sua compreensão de japonês a cada dia que passa, ao mesmo tempo em que coloca o seu conhecimento em prática - por isso que a sua fluência em japonês irá progredir com tanta rapidez.</P>
+              <img class="img2" src="images/imagem2.jpg"><P class="int2">Nós preparamos tudo para o seu sucesso no intercâmbio: turmas pequenas com ambientes de aprendizagem confortáveis, professores experientes e muita atenção individual. Você vai se surpreender com a evolução do seu japonês após o seu intercâmbio no Japão.</P>
+            </div>
+          <div>
+          <div id="culture">
+            <div>
+              <h2>CULTURA</h2>
+              <p class="cultura">O Japão exibe uma cultura multifacetada, com tradições milenares. Embora tenha raízes na cultura chinesa, a distância geográfica permitiu ao Japão a construção de um modelo cultural diferenciado e cujas marcas persistem mesmo com a característica dinâmica do povo de adaptar-se à evolução tecnológica.</p>
+              <h2>GALLERY</h2>
+             <div>
+              <div class="gallery">
+                <a target="_blank" href="images/miyajima.jpg">
+                  <img src="images/miyajima.jpg" alt="Cinque Terre" width="600" height="400">
+                </a>
+                <div class="desc">Miyajima</div>
+              </div>
+              
+              <div class="gallery">
+                <a target="_blank" href="images/himeji.jpg">
+                  <img src="images/himeji.jpg" alt="Forest" width="600" height="400">
+                </a>
+                <div class="desc">Castelo Himeji</div>
+              </div>
+              
+              <div class="gallery">
+                <a target="_blank" href="images/heiwadomu.jpg">
+                  <img src="images/heiwadomu.jpg" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">Memorial da Paz de Hiroshima</div>
+              </div>
+              
+              <div class="gallery">
+                <a target="_blank" href="images/shirakawa.jpg">
+                  <img src="images/shirakawa.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">shirakawa</div>
+              </div>  
+             </div>  
+            </div>
+          </div>
+          
+          <div id="linguage">
+            <div id="lj">
+              <h2 class="ling">Língua Japonesa</h2>
+                <h6 class="h6">Origem</h6>
+                  <p> Língua Japonesa é a sexta mais falada no mundo. Entretanto, a língua é utilizada raramente fora do Japão.Existem muitas teorias sobre a origem da Língua Japonesa. Um grande número de pesquisadores acredita que sintaticamente o idioma se aproxima das línguas Altaic como o turco e o mongol, além do já consenso que a sua sintaxe se assemelha com o coreano. Existem ainda algumas evidências que a sua morfologia e vocabulário sofreram influência pré-histórica das línguas malaio-polinésias do sul.</p>
+                <h6 class="h6">Escrita</h6>
+                  <p>O sistema de escrita japonês veio do chinês, embora a língua falada pelos japoneses e chineses sejam completamente diferente. Após a escrita chinesa ter sido introduzida entre os séculos V e VI, ela foi acrescentada de dois alfabetos fonéticos (hiragana e katakana), que eram variações modificadas dos caracteres chineses.Um grande número de dialetos locais ainda é utilizado. Enquanto o japonês padrão, baseado na fala dos habitantes de Tóquio, foi se expandindo gradativamente pelo país devido a influência das mídia como o rádio, a televisão e o cinema, os dialetos falados em Kyoto e Osaka, em particular, continuam se desenvolvendo e mantêm o seu prestígio. </p>
+            </div>
+                <img src="images/hiragana.png">
+                <img src="images/katakana.png">
+          </div> 
+          <div>
+            <h4>Site em Japones:</h4>
+            <p><a href="file:///C:/Users/Amanda/Downloads/amy/SITE%20JAPONES/japa.html">Vem visitar site em Japonês!!</a></p>
+          </div>
+        </div>
+		    </div>
+        <div class="item2">
+            <div id="contact">
+              <p class="cont">
+                Contato:
+                alineamy@outlook.jp
+                Espíritos Santos - ES
+                Vila Velha - VV 
+                Telefone:<br>
+                (27)99242-7564
+              </p>
+            </div>
+        </div>
+        <div class="item3">
+          <div id="div1">
+            <h5>Conversão de real para outras moedas</h5>
+            <!--Opções de Moedas-->
+            <div id="div2">
+              <label id="label1">Conventer para: Iene</label>
+            </div>
+            <!--Entrada do Valor-->
+            <div id="div3">
+              <label id="label2">Valor a ser convertido</label>
+              <input id="text2">
+            </div>
+            <!--Botões de Conberter e Limpar-->
+            <div>
+              <input type="button" value="Converter" id="bt1" onclick="conversao();" >
+            </div>
+            <!--Resultado do Valor-->
+            <div>
+              <br>
+              <label id="resultado">Resultado:  <span id="valorFinal"></span></label>
+
+            </div>
+          </div>
+		    </div>
+    </div>
+  <script>
+    
+function conversao(){
+
+  var iene = 21.26; //deve-se multiplicar e não dividir
+  valor = parseFloat(document.getElementById("text2").value);				
+	
+		document.getElementById("valorFinal").innerHTML = (valor*iene).toFixed(2);					
+		
+}
+    </script>
+</body>
+</html>
